@@ -1,0 +1,12 @@
+D:\otomasyon\KuleProjesiOtomasyon\KuleOtomasyon\KuleOtomasyon\obj\Debug\KuleOtomasyon.csprojAssemblyReference.cache
+D:\otomasyon\KuleProjesiOtomasyon\KuleOtomasyon\KuleOtomasyon\obj\Debug\KuleOtomasyon.csproj.CoreCompileInputs.cache
+D:\otomasyon\KuleProjesiOtomasyon\KuleOtomasyon\KuleOtomasyon\bin\Debug\KuleOtomasyon.exe.config
+D:\otomasyon\KuleProjesiOtomasyon\KuleOtomasyon\KuleOtomasyon\bin\Debug\KuleOtomasyon.exe
+D:\otomasyon\KuleProjesiOtomasyon\KuleOtomasyon\KuleOtomasyon\bin\Debug\KuleOtomasyon.pdb
+D:\otomasyon\KuleProjesiOtomasyon\KuleOtomasyon\KuleOtomasyon\bin\Debug\WebDriver.dll
+D:\otomasyon\KuleProjesiOtomasyon\KuleOtomasyon\KuleOtomasyon\bin\Debug\WebDriver.Support.dll
+D:\otomasyon\KuleProjesiOtomasyon\KuleOtomasyon\KuleOtomasyon\bin\Debug\WebDriver.xml
+D:\otomasyon\KuleProjesiOtomasyon\KuleOtomasyon\KuleOtomasyon\bin\Debug\WebDriver.Support.xml
+D:\otomasyon\KuleProjesiOtomasyon\KuleOtomasyon\KuleOtomasyon\obj\Debug\KuleOtomasyon.csproj.CopyComplete
+D:\otomasyon\KuleProjesiOtomasyon\KuleOtomasyon\KuleOtomasyon\obj\Debug\KuleOtomasyon.exe
+D:\otomasyon\KuleProjesiOtomasyon\KuleOtomasyon\KuleOtomasyon\obj\Debug\KuleOtomasyon.pdb
