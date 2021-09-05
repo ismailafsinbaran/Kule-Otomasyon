@@ -153,6 +153,7 @@ namespace KuleOtomasyon
             driver.FindElement(By.Id("smsCode")).SendKeys("283126");
             driver.FindElement(By.Id("submitBtn")).Click();
             Thread.Sleep(500);
+            IWebElement IWait = IWait.Until(e => e.FindElement(By.Id("proceed-button")));
             driver.FindElement(By.Id("proceed-button")).Click();
             Thread.Sleep(500);
             driver.FindElement(By.XPath("/html/body/div[3]/div/div[10]/button[1]")).Click();
