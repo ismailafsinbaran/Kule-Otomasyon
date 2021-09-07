@@ -10,6 +10,7 @@ using System.Windows;
 using System.Drawing.Drawing2D;
 
 
+
 namespace KuleOtomasyon
 {
     public class TestKosum
@@ -136,7 +137,7 @@ namespace KuleOtomasyon
 
             #region Rezervasyon Butonu Click İşlemi
             driver.FindElement(By.XPath("//button[contains(text(),'Rezervasyona Devam Et')]")).Click();
-
+            WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(5));
             #endregion
 
             driver.FindElement(By.Id("card-name")).SendKeys(Parametreler.Ad);
@@ -144,19 +145,22 @@ namespace KuleOtomasyon
             driver.FindElement(By.XPath("//input[@id='tarihsx']")).SendKeys(Parametreler.Ay);
             driver.FindElement(By.XPath("//input[@id='cvv']")).SendKeys(Parametreler.CVV);
             driver.FindElement(By.Id("chkAccept")).Click();
+            wait.Until(e => e.FindElement(By.XPath("//button[contains(text(),'Tamam')]")));
             Thread.Sleep(500);
             driver.FindElement(By.XPath("//button[contains(text(),'Tamam')]")).Click();
             Thread.Sleep(3000);
-            driver.FindElement(By.XPath("//button[@id='confirm']")).Click();
-
+            //wait.Until(e => e.FindElement(By.Id("confirm")));
+            driver.FindElement(By.Id("confirm")).Click();
+            //wait.Until(e => e.FindElement(By.Id("proceed-button")));
             Thread.Sleep(3000);
             driver.FindElement(By.Id("smsCode")).SendKeys("283126");
             driver.FindElement(By.Id("submitBtn")).Click();
-            Thread.Sleep(500);
-            IWebElement IWait = IWait.Until(e => e.FindElement(By.Id("proceed-button")));
+            //Thread.Sleep(500);
+            wait.Until(e => e.FindElement(By.Id("proceed-button")));
             driver.FindElement(By.Id("proceed-button")).Click();
             Thread.Sleep(500);
             driver.FindElement(By.XPath("/html/body/div[3]/div/div[10]/button[1]")).Click();
+            
             //if (Element.displayed)
             //{
             //    System.Console.WriteLine("evet");
