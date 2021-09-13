@@ -1,0 +1,6 @@
+D:\otomasyon\Kule-Otomasyon\Kule-Otomasyon\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+D:\otomasyon\Kule-Otomasyon\Kule-Otomasyon\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+D:\otomasyon\Kule-Otomasyon\Kule-Otomasyon\ClassLibrary1\obj\Debug\ClassLibrary1.csprojAssemblyReference.cache
+D:\otomasyon\Kule-Otomasyon\Kule-Otomasyon\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.CoreCompileInputs.cache
+D:\otomasyon\Kule-Otomasyon\Kule-Otomasyon\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+D:\otomasyon\Kule-Otomasyon\Kule-Otomasyon\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
